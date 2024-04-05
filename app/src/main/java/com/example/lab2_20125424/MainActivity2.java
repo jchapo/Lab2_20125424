@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.lab2_20125424.bean.Persona;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -21,8 +20,6 @@ public class MainActivity2 extends AppCompatActivity {
         button.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
             startActivity(intent);
-            //para regresar al MainActivity ya creado
-            //finish();
         });
     }
 }
